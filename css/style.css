@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
+
+.font-banner {
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.bg-banner {
+    background-image: url(../img/bg-header.jpeg);
+    background-size: cover;
+    background-position-x: center;
+}
+
+.mt-n5 {
+    margin-top: -3rem !important;
+}
+
+.bg-orange{
+    background-color: rgb(235, 117, 8);
+    border: 2px solid black;
+    border-radius: 5%;
+    width: 250px;
+    
+}

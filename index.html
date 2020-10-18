@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="jumbotron jumbotron-fluid bg-banner">
+        <h1 class="display-4 text-center font-banner text-danger">Calculadora/Conversor</h1>
+        <p class="lead text-center font-banner text-danger">Nosso sistema de cálculos e conversões</p>
+    </div> 
+    
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark mt-n5">
+        <a class="navbar-brand">
+            <img src="img/calculator.png" alt="Calculator" width="35" height="35">
+        </a>
+        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="my-nav" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Calculadora Comum</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Calculadoras
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="calculadoraIMC.html">IMC</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Conversor
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Dólar</a>
+                        <a class="dropdown-item" href="#">Centímetros</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="row mt-2 border-bottom">
+            <div class="col-12">
+                <h1 class="text-info">Seja bem-vindo ao sistema de cálculos variados</h1>
+            </div>
+        </div>
+        
+        <div class="row mt-2">
+            <div class="col-6 col-sm-4 col-md-2">
+                <button class="btn btn-outline-dark btn-block mt-3">
+                    <h4 class="text-center mt-3 mb-3">Calculadora <br>
+                        Comum
+                    </h4>
+                </button>
+            </div>
+            <div class="col-6 col-sm-4 col-md-2">
+                <a href="calculadoraIMC.html" class="nolink">
+                    <button class="btn btn-outline-dark btn-block mt-3">
+                    <h4 class="text-center mt-3 mb-3">Calculadora <br>
+                        I.M.C.
+                    </h4></a>
+                </button>
+            </div>
+            <div class="col-6 col-sm-4 col-md-2">
+                <button class="btn btn-outline-dark btn-block mt-3">
+                    <h4 class="text-center mt-3 mb-3">Conversor <br>
+                        Dolár
+                    </h4>
+                </button>
+            </div>
+        
+            <div class="col-6 col-sm-4 col-md-2">
+            <button class="btn btn-outline-dark btn-block mt-3">
+                <h4 class="text-center mt-3 mb-3">Conversor <br>
+                    Centimetros
+                </h4>
+            </button>
+        </div>
+    <div class="container-fluid mt-5 border-top">
+        <div class="row">
+            <div class="col-12">
+            <p class="text-center text-dark">
+            Todos os Direitos reservados.<br>
+            Técnico em Desenvolvimentos de Sistemas - Programação de Aplicativos Mobile </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
