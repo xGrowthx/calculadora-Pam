@@ -21,3 +21,11 @@
     width: 250px;
     
 }
+
+.img-banner {
+    height: 25rem;
+    min-height: 25rem;
+    max-height: 25rem;
+    width: 100%;
+    object-fit: cover;
+}
